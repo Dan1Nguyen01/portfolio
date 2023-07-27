@@ -62,7 +62,7 @@ const Footer = () => {
               </a>
             </li>
             <li>
-              <a className="text-gray-400 font-[600]" href="portfolios">
+              <a className="text-gray-400 font-[600]" href="#portfolio">
                 Portfolios
               </a>
             </li>
