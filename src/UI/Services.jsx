@@ -60,7 +60,7 @@ const Services = () => {
                           seamless user journeys that leave a lasting impact.
                         </p>
 
-                        <div className="flex justify-start gap-4 items-center rounded-xl py-3  group-hover:text-white">
+                        <div className="flex flex-wrap gap-3 items-center rounded-xl py-3  group-hover:text-white">
                           <AiFillHtml5 className="text-2xl" />
                           <span className="">HTML</span>
 
@@ -109,7 +109,7 @@ const Services = () => {
                           business logic and ensure seamless data management.
                         </p>
 
-                        <div className="flex justify-start gap-4 items-center rounded-xl py-3 group-hover:text-white">
+                        <div className="flex flex-wrap gap-3 items-center rounded-xl py-3 group-hover:text-white">
                           <SiMongodb className="text-2xl" />
                           <span className="">MongoDB</span>
 
@@ -159,7 +159,7 @@ const Services = () => {
                           commitment to crafting elegant and intuitive designs.
                         </p>
 
-                        <div className="flex justify-start gap-4 items-center rounded-xl py-3 group-hover:text-white">
+                        <div className="flex flex-wrap gap-3 items-center rounded-xl py-3 group-hover:text-white">
                           <BiLogoFigma className="text-2xl" />
                           <span className="">Figma</span>
                         </div>
@@ -195,7 +195,7 @@ const Services = () => {
                           applications that drive business success.
                         </p>
 
-                        <div className="flex justify-start gap-4 items-center rounded-xl py-3 group-hover:text-white">
+                        <div className="flex flex-wrap gap-3 items-center rounded-xl py-3 group-hover:text-white">
                           <FaGithub className="text-2xl" />
                           <span>Git/ Github</span>
                           <SiOracle className="text-2xl" />

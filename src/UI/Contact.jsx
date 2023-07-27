@@ -10,7 +10,7 @@ const Contact = () => {
 
         <h4 className="text-headingColor font-[300] mb-2">Contact me</h4>
 
-        <div className="grid grid-cols-3 gap-3">
+        <div className="grid lg:grid-cols-3 gap-3 sm:grid-cols-1">
           <div className="flex items-center flex-col border border-solid-gray-300 rounded-2xl">
             <i class="ri-mail-send-fill text-2xl"></i>
             <p>Email</p>
