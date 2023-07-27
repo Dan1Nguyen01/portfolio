@@ -3,6 +3,20 @@ import frontEnd from "../assets/images/front-end.png";
 import backEnd from "../assets/images/backend.png";
 import uiImg from "../assets/images/design.png";
 import appsImg from "../assets/images/apps.png";
+
+import { FaNode, FaJava, FaGithub, FaAws } from "react-icons/fa";
+import { BiLogoTailwindCss, BiLogoFigma } from "react-icons/bi";
+import { IoLogoCss3 } from "react-icons/io";
+import { AiFillHtml5, AiFillGithub } from "react-icons/ai";
+import {
+  SiExpress,
+  SiMongodb,
+  SiMysql,
+  SiJavascript,
+  SiReact,
+  SiOracle,
+} from "react-icons/si";
+import { TbBrandAws } from "react-icons/tb";
 const Services = () => {
   return (
     <section id="services">
@@ -45,6 +59,23 @@ const Services = () => {
                           combine creativity and functionality to deliver
                           seamless user journeys that leave a lasting impact.
                         </p>
+
+                        <div className="flex justify-start gap-4 items-center rounded-xl py-3  group-hover:text-white">
+                          <AiFillHtml5 className="text-2xl" />
+                          <span className="">HTML</span>
+
+                          <IoLogoCss3 className="text-2xl" />
+                          <span>CSS</span>
+
+                          <BiLogoTailwindCss className="text-2xl" />
+                          <span>Tailwind</span>
+
+                          <SiJavascript className="text-2xl" />
+                          <span>JavaScript</span>
+
+                          <SiReact className="text-2xl" />
+                          <span>React</span>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -77,6 +108,23 @@ const Services = () => {
                           efficient and secure systems to handle complex
                           business logic and ensure seamless data management.
                         </p>
+
+                        <div className="flex justify-start gap-4 items-center rounded-xl py-3 group-hover:text-white">
+                          <SiMongodb className="text-2xl" />
+                          <span className="">MongoDB</span>
+
+                          <SiExpress className="text-2xl" />
+                          <span>Express.JS</span>
+
+                          <FaNode className="text-2xl" />
+                          <span>Node.JS</span>
+
+                          <FaJava className="text-2xl" />
+                          <span>Java</span>
+
+                          <SiMysql className="text-2xl" />
+                          <span>MySQL</span>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -110,6 +158,11 @@ const Services = () => {
                           and understanding of user behavior drives my
                           commitment to crafting elegant and intuitive designs.
                         </p>
+
+                        <div className="flex justify-start gap-4 items-center rounded-xl py-3 group-hover:text-white">
+                          <BiLogoFigma className="text-2xl" />
+                          <span className="">Figma</span>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -133,14 +186,23 @@ const Services = () => {
                         className="bg-white p-4 rounded shadow group hover:bg-primaryColor cursor-pointer ease-in duration-150"
                       >
                         <h3 className="text-primaryColor font-[700] mb-3 group-hover:text-white group-hover:font-[500] text-xl">
-                          Mobile App Development
+                          Full-Stack Web Development & Cloud Solutions
                         </h3>
                         <p className="text-[15px] text-smallTextColor group-hover:text-white group-hover:font-[500] leading-7">
-                          Harness the potential of mobile platforms with
-                          cutting-edge app development. I create intuitive and
-                          feature-rich mobile applications that engage users and
-                          drive brand loyalty.
+                          Expert in full-stack web development & cloud
+                          solutions, leveraging tools like Git/GitHub, Oracle
+                          Cloud, and AWS to build scalable and secure
+                          applications that drive business success.
                         </p>
+
+                        <div className="flex justify-start gap-4 items-center rounded-xl py-3 group-hover:text-white">
+                          <FaGithub className="text-2xl" />
+                          <span>Git/ Github</span>
+                          <SiOracle className="text-2xl" />
+                          <span>Oracle Cloud</span>
+                          <FaAws className="text-2xl" />
+                          <span>AWS</span>
+                        </div>
                       </div>
                     </div>
                   </div>

@@ -7,7 +7,47 @@ const Contact = () => {
         <h2 className="text-headingColor font-[700] text-[2.5rem] mb-8">
           Get in touch
         </h2>
-        <div className="md:flex justify-between items-center">
+
+        <h4 className="text-headingColor font-[300] mb-2">Contact me</h4>
+
+        <div className="grid grid-cols-3 gap-3">
+          <div className="flex items-center flex-col border border-solid-gray-300 rounded-2xl">
+            <i class="ri-mail-send-fill text-2xl"></i>
+            <p>Email</p>
+            <p className="text-sm text-gray-500">dannguyen062601@gmail.com</p>
+            <a
+              href={"mailto:" + "dannguyen062601@gmail.com"}
+              className="text-gray-300 hover:text-primaryColor"
+            >
+              Send me
+            </a>
+          </div>
+
+          <div className="flex items-center flex-col border border-solid-gray-300 rounded-2xl">
+            <i class="ri-linkedin-fill text-2xl"></i>
+            <p>LinkedIn</p>
+            <p className="text-sm text-gray-500">Hung (Dan) Nguyen</p>
+            <a
+              className="text-gray-300 hover:text-primaryColor"
+              href={"https://www.linkedin.com/in/dan-nguyen0626/"}
+            >
+              Connect me
+            </a>
+          </div>
+
+          <div className="flex items-center flex-col border border-solid-gray-300 rounded-2xl">
+            <i class="ri-instagram-fill text-2xl"></i>
+            <p>Instagram</p>
+            <p className="text-sm text-gray-500"> Dan Nguyen</p>
+            <a
+              href={"https://www.instagram.com/daninnbabe/"}
+              className="text-gray-300 hover:text-primaryColor"
+            >
+              See me
+            </a>
+          </div>
+        </div>
+        {/* <div className="md:flex justify-between items-center">
           <div className="w-full md:w-1/2 h-[300px] sm:h-[450px]">
             <iframe
               title="google-maps"
@@ -50,7 +90,7 @@ const Contact = () => {
               </button>
             </form>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

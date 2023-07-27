@@ -1,7 +1,7 @@
 import React from "react";
 import HeroImg from "../assets/images/AI-1.jpg";
 import CountUp from "react-countup";
-import { AiFillCodepenCircle } from "react-icons/ai";
+
 const Hero = () => {
   return (
     <section className="pt-0" id="about">
@@ -14,14 +14,14 @@ const Hero = () => {
               data-aos-duration="1500"
               className="text-headingColor font-[600] text-[16px]"
             >
-              Hello and Welcome
+              Hello and Welcome,
             </h5>
             <h1
               data-aos="fade-up"
               data-aos-duration="1500"
               className="text-headingColor font-[800] text-[1.8rem] sm:text-[40px] leading-[35px] sm:leading-[46px] mt-5"
             >
-              I'm Hung Nguyen <br />
+              I'm Hung (Dan) Nguyen <br />
               Full-Stack Developer
             </h1>
 
@@ -79,14 +79,14 @@ const Hero = () => {
                 </a>
               </span>
 
-              <span>
+              {/* <span>
                 <a
                   className="flex items-center justify-center gap-2 text-smallTextColor text-[18px] font-[600]"
                   href="https://leetcode.com/dannguyen062601/"
                 >
                   <AiFillCodepenCircle /> LeetCode
                 </a>
-              </span>
+              </span> */}
             </div>
           </div>
           {/* Hero left end*/}
