@@ -34,6 +34,12 @@ const Modal = ({ activeID, setShowModal }) => {
               </span>
             ))}
           </div>
+          <h4 className="text-headingColor text-[18px] text-[700]">
+            Description:
+          </h4>
+          <p className="bg-gray-100 py-1 px-2 rounded-[5px] text-[14px] leading-0">
+            {portfolio.description}
+          </p>
 
           <a href={portfolio.siteUrl}>
             <button className="bg-primaryColor text-white py-2 px-4 my-8 rounded-[8px] fornt-[500] hover:bg-headingColor ease-in duration-300">

@@ -6,7 +6,8 @@ const portfolios = [
     imgUrl: troveImg,
     category: "Web Design",
     title: "Music Web Application",
-    describtion: "username: user1@gmail.com  password: password",
+    description:
+      "TroveMusic is a cutting-edge web application that revolutionizes music discovery, offering users an immersive experience to explore, curate, and share their favorite tunes from a vast collection of artists and genres.",
     technologies: [
       "REACT",
       "Tailwind css",
@@ -23,7 +24,7 @@ const portfolios = [
     imgUrl: airbnbImg,
     category: "Web Design",
     title: "Cloning AirB&B website",
-    describtion: "",
+    description: "username: user1@gmail.com  password: password",
     technologies: ["REACT", "Tailwind css", "Node.js", "Express.js", "MongoDB"],
     siteUrl: "https://airbandb-clone.onrender.com/",
   },
@@ -32,7 +33,8 @@ const portfolios = [
     imgUrl: troveImg,
     category: "Ux",
     title: "Music Web Application",
-    describtion: "",
+    description:
+      "TroveMusic is a cutting-edge web application that revolutionizes music discovery, offering users an immersive experience to explore, curate, and share their favorite tunes from a vast collection of artists and genres.",
     technologies: [
       "REACT",
       "Tailwind css",
@@ -48,7 +50,7 @@ const portfolios = [
     imgUrl: airbnbImg,
     category: "Ux",
     title: "Cloning AirB&B website",
-    describtion: "username: user1@gmail.com  password: password",
+    description: "username: user1@gmail.com  password: password",
     technologies: ["REACT", "Tailwind css", "Node.js", "Express.js", "MongoDB"],
     siteUrl: "https://airbandb-clone.onrender.com/",
   },
@@ -57,7 +59,8 @@ const portfolios = [
     imgUrl: troveImg,
     category: "Web Design",
     title: "Music Web Application",
-    describtion: "username: user1@gmail.com  password: password",
+    description:
+      "TroveMusic is a cutting-edge web application that revolutionizes music discovery, offering users an immersive experience to explore, curate, and share their favorite tunes from a vast collection of artists and genres.",
     technologies: [
       "REACT",
       "Tailwind css",
@@ -73,7 +76,7 @@ const portfolios = [
     imgUrl: airbnbImg,
     category: "Web Design",
     title: "Cloning AirB&B website",
-    describtion: "username: user1@gmail.com  password: password",
+    description: "username: user1@gmail.com  password: password",
     technologies: ["REACT", "Tailwind css", "Node.js", "Express.js", "MongoDB"],
     siteUrl: "https://airbandb-clone.onrender.com/",
   },
