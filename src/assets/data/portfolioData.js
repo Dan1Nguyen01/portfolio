@@ -25,7 +25,7 @@ const portfolios = [
     title: "Cloning AirB&B website",
     describtion: "",
     technologies: ["REACT", "Tailwind css", "Node.js", "Express.js", "MongoDB"],
-    siteUrl: "#",
+    siteUrl: "https://airbandb-clone.onrender.com/",
   },
   {
     id: "01",
@@ -50,7 +50,7 @@ const portfolios = [
     title: "Cloning AirB&B website",
     describtion: "",
     technologies: ["REACT", "Tailwind css", "Node.js", "Express.js", "MongoDB"],
-    siteUrl: "#",
+    siteUrl: "https://airbandb-clone.onrender.com/",
   },
   {
     id: "01",
@@ -75,7 +75,7 @@ const portfolios = [
     title: "Cloning AirB&B website",
     describtion: "",
     technologies: ["REACT", "Tailwind css", "Node.js", "Express.js", "MongoDB"],
-    siteUrl: "#",
+    siteUrl: "https://airbandb-clone.onrender.com/",
   },
 ];
 
