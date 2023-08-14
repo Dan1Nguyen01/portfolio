@@ -1,7 +1,7 @@
 import React from "react";
 import { BiLogoGithub } from "react-icons/bi";
 const Footer = () => {
-  const myEmail = "dannguyen062601@gmail.com";
+  const myEmail = "dansoftdev0101@gmail.com";
   const year = new Date().getFullYear();
   return (
     <footer className="bg-[#12141e] pt-12">

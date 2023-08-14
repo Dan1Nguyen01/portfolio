@@ -3,6 +3,10 @@ import HeroImg from "../assets/images/hero.jpg";
 import CountUp from "react-countup";
 
 const Hero = () => {
+  const openResumeInNewTab = () => {
+    window.open("/resume.pdf", "_blank");
+  };
+
   return (
     <section className="pt-0" id="about">
       <div className="container pt-14">
@@ -31,11 +35,12 @@ const Hero = () => {
               data-aos-delay="200"
               className="flex items-center gap-6 mt-7"
             >
-              <a href="#contact">
-                <button className="flex items-center gap-2 bg-primaryColor text-white font-[500] hover:bg-smallTextColor ease-in duration-300 py-2 px-4 rounded-[8px] ">
-                  <i class="ri-mail-line"> Hire me</i>
-                </button>
-              </a>
+              <button
+                onClick={openResumeInNewTab}
+                className="flex items-center gap-2 bg-primaryColor text-white font-[500] hover:bg-smallTextColor ease-in duration-300 py-2 px-4 rounded-[8px] "
+              >
+                <i class="ri-mail-line"> My Resume</i>
+              </button>
 
               <a
                 href="#portfolio"
@@ -110,7 +115,7 @@ const Hero = () => {
 
             <div className="mb-10">
               <h2 className="text-headingColor font-[700] text-[32px]">
-                <CountUp start={0} end={5} duration={2} suffix="+" />
+                <CountUp start={0} end={10} duration={2} suffix="+" />
               </h2>
               <h4 className="text-headingColor font-[600] text-[18px]">
                 Projects Completed

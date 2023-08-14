@@ -10,13 +10,13 @@ const Contact = () => {
 
         <h4 className="text-headingColor font-[300] mb-2">Contact me</h4>
 
-        <div className="grid lg:grid-cols-3 gap-3 sm:grid-cols-1">
+        <div className="grid lg:grid-cols-2 gap-3 sm:grid-cols-1">
           <div className="flex items-center flex-col border border-solid-gray-300 rounded-2xl">
             <i class="ri-mail-send-fill text-2xl"></i>
             <p>Email</p>
-            <p className="text-sm text-gray-500">dannguyen062601@gmail.com</p>
+            <p className="text-sm text-gray-500">dansoftdev0101@gmail.com</p>
             <a
-              href={"mailto:" + "dannguyen062601@gmail.com"}
+              href={"mailto:" + "dansoftdev0101@gmail.com"}
               className="text-gray-300 hover:text-primaryColor"
             >
               Send me
@@ -32,18 +32,6 @@ const Contact = () => {
               href={"https://www.linkedin.com/in/dan-nguyen0626/"}
             >
               Connect me
-            </a>
-          </div>
-
-          <div className="flex items-center flex-col border border-solid-gray-300 rounded-2xl">
-            <i class="ri-instagram-fill text-2xl"></i>
-            <p>Instagram</p>
-            <p className="text-sm text-gray-500"> Dan Nguyen</p>
-            <a
-              href={"https://www.instagram.com/daninnbabe/"}
-              className="text-gray-300 hover:text-primaryColor"
-            >
-              See me
             </a>
           </div>
         </div>
